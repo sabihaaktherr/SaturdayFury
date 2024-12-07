@@ -12,11 +12,11 @@ public class Selenium {
 		String hpTitle=dr.getTitle();
 		System.out.println(hpTitle);
 		dr.findElement(By.xpath("//a[text()='Forum']")).click();
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		String fpTitle=dr.getTitle();
 		System.out.println(fpTitle);
 		dr.findElement(By.id("username")).sendKeys("myusername@osa.com");
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		dr.findElement(By.name("password")).sendKeys("Sabiha34@");
 		Thread.sleep(5000);
 		dr.findElement(By.xpath("//button[@id='login_button']")).click();
