@@ -13,7 +13,7 @@ public class Varification {
 		ChromeDriver dr=new ChromeDriver();
 		dr.get("https://www.osaconsultingtech.com");
 		dr.findElement(By.xpath("//a[text()='Forum']")).click();
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		dr.findElement(By.id("username")).sendKeys("diamondsabiha@gmail.com");
 		Thread.sleep(5000);
 		dr.findElement(By.name("password")).sendKeys("Mu*****");
