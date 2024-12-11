@@ -18,7 +18,7 @@ public class Selenium {
 		dr.findElement(By.id("username")).sendKeys("myusername@osa.com");
 		Thread.sleep(3000);
 		dr.findElement(By.name("password")).sendKeys("Sabiha34@");
-		Thread.sleep(5000);
+		Thread.sleep(6000);
 		dr.findElement(By.xpath("//button[@id='login_button']")).click();
 		Thread.sleep(5000);
 		dr.quit();	
